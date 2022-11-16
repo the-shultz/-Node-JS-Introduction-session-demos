@@ -1,27 +1,34 @@
-// const arr = [1, 2, 3, 4, 5, 6, 7, 8];
+// // const arr = [1, 2, 3, 4, 5, 6, 7, 8];
 
-// const bb = arr.filter((value, index) => value % index === 0);
+// // const bb = arr.filter((value, index) => value % index === 0);
 
-// console.log(bb, arr);
+// // console.log(bb, arr);
 
-// arr[98] = 0;
+// // arr[98] = 0;
 
-// console.log(arr);
+// // console.log(arr);
 
-// const [b, n, ...v] = arr;
+// // const [b, n, ...v] = arr;
 
-// console.log(b, n, v);
+// // console.log(b, n, v);
 
-// con
+// // con
 
-const a = () => console.log("i am a");
-const b = () => console.log("i am b");
-const c = () => console.log("i am c");
-const d = () => console.log("i am d");
+// const a = () => console.log("i am a");
+// const b = () => console.log("i am b");
+// const c = () => console.log("i am c");
+// const d = () => console.log("i am d");
 
-const functionArray = [a, b, c, d];
-const anotherArray = [...functionArray];
+// const functionArray = [a, b, c, d];
+// const anotherArray = [...functionArray];
 
-functionArray.forEach((func) => func());
+// functionArray.forEach((func) => func());
 
-console.log(functionArray);
+// console.log(functionArray);
+
+const sha1 = require("sha1");
+
+sha1("message");
+const hash = "this is the string ";
+
+console.log(sha1(hash));

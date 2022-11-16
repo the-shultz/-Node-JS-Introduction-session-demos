@@ -24,4 +24,6 @@ const obj = {
   5: "itay",
 };
 
+obj[67] = "snir";
+
 log(Object.keys(obj));

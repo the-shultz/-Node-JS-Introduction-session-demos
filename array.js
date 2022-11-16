@@ -20,6 +20,7 @@ const c = () => console.log("i am c");
 const d = () => console.log("i am d");
 
 const functionArray = [a, b, c, d];
+const anotherArray = [...functionArray];
 
 functionArray.forEach((func) => func());
 
